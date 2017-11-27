@@ -1,0 +1,21 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.3'
+
+target 'MVVMC' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for MVVMC
+  
+  # Rx
+  pod 'RxSwift', '~> 4.0'
+  pod 'RxCocoa', '~> 4.0'
+
+  # ObjectMapper
+  pod 'ObjectMapper'
+  
+  # Networking
+  pod 'Moya/RxSwift'
+  pod 'Moya-ObjectMapper/RxSwift'
+  
+end
